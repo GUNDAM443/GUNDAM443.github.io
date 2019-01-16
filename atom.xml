@@ -42,8 +42,8 @@
   
   <entry>
     <title>你好,hexo</title>
-    <link href="http://yoursite.com/2019/01/14/%E4%BD%A0%E5%A5%BD-hexo%20-%20%E5%89%AF%E6%9C%AC/"/>
-    <id>http://yoursite.com/2019/01/14/你好-hexo - 副本/</id>
+    <link href="http://yoursite.com/2019/01/14/%E4%BD%A0%E5%A5%BD-hexo/"/>
+    <id>http://yoursite.com/2019/01/14/你好-hexo/</id>
     <published>2019-01-14T12:45:26.000Z</published>
     <updated>2019-01-15T14:11:03.516Z</updated>
     
@@ -66,8 +66,8 @@
   
   <entry>
     <title>你好,hexo</title>
-    <link href="http://yoursite.com/2019/01/14/%E4%BD%A0%E5%A5%BD-hexo/"/>
-    <id>http://yoursite.com/2019/01/14/你好-hexo/</id>
+    <link href="http://yoursite.com/2019/01/14/%E4%BD%A0%E5%A5%BD-hexo%20-%20%E5%89%AF%E6%9C%AC/"/>
+    <id>http://yoursite.com/2019/01/14/你好-hexo - 副本/</id>
     <published>2019-01-14T12:45:26.000Z</published>
     <updated>2019-01-15T14:11:03.516Z</updated>
     
