@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-08-22T08:00:24.229Z</updated>
+  <updated>2019-08-22T08:05:50.394Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title></title>
-    <link href="http://yoursite.com/2019/08/22/Mybatis%20insert%E6%A0%87%E7%AD%BE/"/>
-    <id>http://yoursite.com/2019/08/22/Mybatis insert标签/</id>
-    <published>2019-08-22T07:40:37.830Z</published>
-    <updated>2019-08-22T08:00:24.229Z</updated>
+    <title>Mybatis insert标签</title>
+    <link href="http://yoursite.com/2019/01/14/Mybatis%20insert%E6%A0%87%E7%AD%BE/"/>
+    <id>http://yoursite.com/2019/01/14/Mybatis insert标签/</id>
+    <published>2019-01-14T11:54:04.000Z</published>
+    <updated>2019-08-22T08:05:50.394Z</updated>
     
     <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="Mybatis-insert标签"><a href="#Mybatis-insert标签" class="headerlink" title="Mybatis insert标签"></a>Mybatis insert标签</h1><hr><h2 id="1-添加返回主键"><a href="#1-添加返回主键" class="headerlink" title="1.添加返回主键"></a>1.添加返回主键</h2><p><img src="C:\Users\63051\AppData\Roaming\Typora\typora-user-images\1566459575181.png" alt="1566459575181"></p><h2 id="2-批量添加"><a href="#2-批量添加" class="headerlink" title="2.批量添加"></a>2.批量添加</h2><p><img src="C:\Users\63051\AppData\Roaming\Typora\typora-user-images\1566459605549.png" alt="1566459605549"></p><p><img src="C:\Users\63051\AppData\Roaming\Typora\typora-user-images\1566459625656.png" alt="1566459625656"></p>]]></content>
     
@@ -33,6 +33,8 @@
       
     
     </summary>
+    
+      <category term="MyBatis" scheme="http://yoursite.com/categories/MyBatis/"/>
     
     
   </entry>
