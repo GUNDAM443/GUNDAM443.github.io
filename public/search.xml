@@ -1,45 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<search> 
-  
-  
-    
-    <entry>
-      <title></title>
-      <link href="/2019/08/22/Mybatis%20insert%E6%A0%87%E7%AD%BE/"/>
-      <url>/2019/08/22/Mybatis%20insert%E6%A0%87%E7%AD%BE/</url>
-      
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="Mybatis-insert标签"><a href="#Mybatis-insert标签" class="headerlink" title="Mybatis insert标签"></a>Mybatis insert标签</h1><h2 id="1-添加返回主键"><a href="#1-添加返回主键" class="headerlink" title="1.添加返回主键"></a>1.添加返回主键</h2><p><img src="C:\Users\63051\AppData\Roaming\Typora\typora-user-images\1566459575181.png" alt="1566459575181"></p><h2 id="2-批量添加"><a href="#2-批量添加" class="headerlink" title="2.批量添加"></a>2.批量添加</h2><p><img src="C:\Users\63051\AppData\Roaming\Typora\typora-user-images\1566459605549.png" alt="1566459605549"></p><p><img src="C:\Users\63051\AppData\Roaming\Typora\typora-user-images\1566459625656.png" alt="1566459625656"></p>]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>吃点好的</title>
-      <link href="/2019/01/14/%E9%81%87%E8%A7%81%E8%A5%BF%E9%97%A8/"/>
-      <url>/2019/01/14/%E9%81%87%E8%A7%81%E8%A5%BF%E9%97%A8/</url>
-      
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>大晚上的,好饿啊.</p>]]></content>
-      
-      
+<search>
+  <entry>
+    <title><![CDATA[吃点好的]]></title>
+    <url>%2F2019%2F01%2F14%2F%E9%81%87%E8%A7%81%E8%A5%BF%E9%97%A8%2F</url>
+    <content type="text"><![CDATA[大晚上的,好饿啊.]]></content>
       <categories>
-          
-          <category> 生活 </category>
-          
+        <category>生活</category>
       </categories>
-      
-      
-        <tags>
-            
-            <tag> 心情 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-  
-  
+      <tags>
+        <tag>心情</tag>
+      </tags>
+  </entry>
 </search>
