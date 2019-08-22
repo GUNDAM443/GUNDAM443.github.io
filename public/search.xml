@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title></title>
+    <url>%2F2019%2F08%2F22%2F%E5%8D%95%E4%BD%93%E5%BA%94%E7%94%A8%E4%B8%8ESOA%E5%BA%94%E7%94%A8%2F</url>
+    <content type="text"><![CDATA[Dubbo 单体应用与**SOA**应用 单体应用:中级项目，CRM 均属于单体应用特点 \1. 代码比较集中（前端+后端） 后 端 :dao，service,controller（war） 前端:html，css,js,images \2. 应用独立部署-部署比较简单 应用上线 打包（通常为一个war） \3. 版本迭代中 应用技术复杂度越来越高，维护成本加大 \4. 异常全局性（一个异常可能会导致服务器不可用） \5. 代码重复性较大 （service服务不可拆分） SOA:面向服务(接口)开发1.代码分散(多个应用组件) \2. 项目部署在多台机器上(分布式部署-分布式项目) \3. 服务被拆分到不同应用 \4. 服务与服务之间调用跨机器(远程调用) 微服务:服务的粒度拆分细 拆分的每一个服务后续部署在一台独立机器(http(json))-SpringCloud(SpringBoot) Dubbo面向服务的 分布式 RPC 远程调用框架 RPCRPC 协议:跨越传输层与应用层 实现机器与机器之间的远程通信协议 开发者不需要关注底层实现细节 关注重心:服务实现与服务调用 RPC框架:Java RMI(tcp),Dubbo(支持java),grpc,thrift RPC运行流程: 问题1:通讯问题-tcp 建立网络连接 问题2:网络寻址问题-本地存根(实现服务查找-类似字典表) 问题3:序列化与反序列化 Java RMI实现远程方法调用（ 跨机器 跨虚拟机 ） Dubbo 流程图 Provider:服务的提供方(提供接口方法实现) Java应用 一个服务可能会有多个提供方提供Registry:注册中心 保存服务提供方提供的服务信息，消费方订阅的信息 支持服务变更推送Consumer:服务消费方 java应用 订阅注册中心服务信息到本地 基于RPC协议实现远程过程调用Monitor:监控方 监控服务提供方 消费方运行信息 0 1:start register 应用程序初始化借助IOC容器实例化Bean对象 注册服务信息到注册中心 2-subscrible 订阅 消费方启动时 到注册中心订阅服务信息到本地 4-远程同步调用 根据2 过程订阅的服务信息 发起远程调用（RPC） 3-服务信息变更异步通知 当服务提供方服务信息变更时 注册中心发送变更推送信息给消费方 5-count 统计操作 Dubbo 环境配置模块介绍 dubbo_par 父 工 程 dubbo_api 服务定义模块dubbo_provider 服务实现方dubbo_consumer 服务消费方 Dubbo 常用标签 dubbo:application配置应用名称 用于服务提供方和服务消费方 name=”应用名称” dubbo:registry注册中心 用于服务提供方和服务消费方 address=”” (广播|zookeeper(推荐)) dubbo:protocol配置服务注册协议 name=”dubbo”(推荐使用dubbo) port=”20880” 用于服务提供方 dubbo:service注册的服务信息配置 用于服务提供方 interface=”服务名”(接口全路径-包名.接口) ref=”实现类id标识” 可以配置多个 dubbo:reference配置订阅的服务信息 用于服务消费方 interface=”服务名”(接口全路径-包名.接口) id=”bean的唯一标识” 可以配置多个 Dubbo 注册中心**-Zookeeper 配置** Zookeeper流程图 Zookeeper 配置下载并解压:http://mirrors.shu.edu.cn/apache/zookeeper/zookeeper-3.4.13/ bin目录： windows 启动 zkServer.cmd 启动zookeeper 脚本 zkCli.cmd 连接zookeeper 脚本 linux 启动 zkServer.sh start zkCli.sh conf:zoo.cfg dataDir:存放节点数据目录 dataLogDir:存放运行日志目录 节点查看命令 ls /ls /zookeeper ls /dubbo Java 客户端坐标添加(在父工程下添加) 服务提供方 服务消费方 配置注册中心为zookeeper 测试 启动服务端 执行服务注册 在 zkCli 界面查看注册的节点数据启动消费端 执行消费 使用dubbo协议]]></content>
+  </entry>
+  <entry>
+    <title><![CDATA[吃点好的]]></title>
+    <url>%2F2019%2F01%2F14%2F%E9%81%87%E8%A7%81%E8%A5%BF%E9%97%A8%2F</url>
+    <content type="text"><![CDATA[1&#123;% aplayer &quot;她的睫毛&quot; &quot;周杰伦&quot; &quot;http://home.ustc.edu.cn/~mmmwhy/%d6%dc%bd%dc%c2%d7%20-%20%cb%fd%b5%c4%bd%de%c3%ab.mp3&quot; &quot;http://home.ustc.edu.cn/~mmmwhy/jay.jpg&quot; &quot;autoplay=false&quot; %&#125; 大晚上的,好饿啊.]]></content>
+      <categories>
+        <category>生活</category>
+      </categories>
+      <tags>
+        <tag>心情</tag>
+      </tags>
+  </entry>
+</search>
